@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    
+}
+
+main {
+    text-align: center;
+    font-family: monospace;
+    color: lime;
+}
+/*
+>>>>>>>header style at the bottom<<<<<<<
+*/
+.head-icon {
+    background-color: rgb(255, 123, 0);
+}
+.head-icon img {
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.head-icon h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    display: inline;
+    position: absolute;
+    top: -13px;
+    left: 120px;
+}
+
+/*
+    PAGINATION
+*/
+
+.paging {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    top: 400px;
+    clear: both;
+
+}
+.paging a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    transition: 0.15s;
+}
+.paging a:hover {
+    background-color: rgb(255, 123, 0);
+}
+.paging a:active {
+    opacity: 0.5;
+}
+.paging .active {
+    background-color: rgb(175, 79, 0);
+}
